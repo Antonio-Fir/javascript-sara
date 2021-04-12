@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html">Javascript</a>
+    </header>
+
+    <div class="todo">
+        <div class="seccion">
+            <h2>Tipos de datos</h2>
+            <p><b>String: </b>Sevuenjcia de cáracteres que representan un valor. Ejemplo: "Hola".
+                <br>
+                <b>Boolean: </b> Valores "true" o "false".
+                <br>
+                <b>Null: </b>Denota valor nulo. Javascript es case-sensitive(null). null no es lo mismo 
+                que "Null", "NULL".
+                <br>
+                <b>Undefined: </b>Valor sin definir.
+                <br>
+                <b>Symbol: </b>Tipo de dato, cuyos casos son únicos e inmutables.
+                <br>
+                <b>Objet: </b> Objeto, puede contener más variables en su interior.
+            </p>
+        </div>
+
+        <div class="seccion">
+            <h2>typeof</h2>
+            <p>La función <b>typeof</b> es utilizada para obtener el tipo de dato que tiene una variable.
+            Veamos unos ejemplos:
+            </p>
+            <div class="imagen">
+                <img src="./img/img_003.png" alt="">
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>Conversión de tipos de datos</h2>
+            <p>Javascript es un lenguaje de tipo dinámico. Esto significa que, al declarar una variable,
+            no tienes que especificar el tipo de dato. <br>
+            Así, por ejemplo, puedes definir una variable de la siguiente manera: <br> <br>
+            var ejemplo = 55; <br> <br>
+            y luego, puedes asignarle un string a esa variable: <br> <br>
+            ejemplo = "¿Qué te paso, viejo? Antes eras chevere"; <br> <br>
+            Ya que es un lenguaje de tipo dinámico, esta asignación no causa un mensaje de error.
+            </p>
+        </div>
+
+        <div class="seccion">
+            <h2>Convertir string a números</h2>
+            <p>
+                En caso que un valor representando a un número esta en memoria como string:
+            </p>
+            <h3>parseInt()</h3>
+            <p>
+                [Retornará números enteros.] <br>
+                Sirve para "parsear" una cadena (string) e intentar obtener un valor numérico. <br> <br>
+                <b>Ejemplo:</b> <br>
+                var s = "1234"; <br>
+                var n = parceInt(s); //<b>1234</b>
+            </p> <br>
+            <h3>parseFloat()</h3>
+            <p>
+                [El número siempre se interpreta como decimal] <br>
+                <br> <br>
+                <b>Ejemplo con parseInt:</b> <br>
+                var s = 3.14 <br>
+                var n = parseInt(s); //<b>3</b>
+                <br> <br>
+                <b>Ejemplo con parseFloat:</b> <br>
+                var n = parseFloat(s); //<b>3.14</b>
+            </p>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <a href="./index.html">Regresar</a>
+    </footer>
+</body>
+</html>

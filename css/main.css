@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: #65a8df;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.todo {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.todo .seccion {
+  width: 60%;
+  padding: 30px;
+}
+
+.todo .seccion .imagen {
+  width: 80%;
+}
+
+.todo .seccion .imagen img {
+  width: 100%;
+}
+
+.todo .menu {
+  text-align: center;
+  width: 50%;
+  margin: 70px auto;
+}
+
+.todo .menu .enlaces {
+  width: 50%;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.todo .menu .enlaces a {
+  margin: 5px auto;
+  text-decoration: none;
+  background: #65a8df;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #65a8df;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer a {
+  font-size: 20px;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

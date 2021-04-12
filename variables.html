@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html">Javascript</a>
+    </header>
+
+    <div class="todo">
+        <div class="seccion">
+            <h2>Declaraciones de variables</h2>
+            <p>Las variables se usan como nombres simbolicos para valores en tu aplicación.
+                Los nombres de las variables, llamados identificadires, se rigen por ciertas reglas.
+                <br>
+                Un identificador en js tiene que empezar por una letras, un guión bajo <b>_</b> o un simbolo
+                 de <b>$</b>, los valores subsiguientes pueden ser números.
+                <br>
+                Javascript diferencia entre mayúsculas y minúsculas, por lo tanto las letras incluyen
+                 desde la "A" a la "Z" y desde la "a" a la "z".
+            </p>
+            <p>Hay 3 tipos de declaraciones en Javascript
+                <br><br>
+                <b>var: </b>Declara una variable, inicianizándola opcionalmente a un valor. Podrá cambiar 
+                su valor y su scope es local.
+                <br>
+                <b>let: </b>Declara una variable local en un bloque de ámbito, inicianizándola opcionalmente
+                a un valor. Podrá cambiar su valor.
+                <br>
+                <b>const: </b>Declara una variable de sólo lectura en un bloque de ámbito. No será posible
+                cambiar su valor mediante la asignación.
+            </p>
+        </div>
+
+        <div class="seccion">
+            <h2>Ámbito de una variable</h2>
+            <p>Cuando declaras una variable fuera de una función, se le denomina <b>variable global</b>, 
+                por que esta disponible para cualquier otro código en el documento actual.
+                <br>
+                Cuando declaras una variable dentro de la función, se le denomina <b>variable local</b>,
+                 porque está disponible solo dentro de esa función donde fue creada.               
+            </p>
+            <br>
+            <h2>Variable hoisting</h2>
+            <p>Las variables en Javascript pueden hacer referencia a una variable declarada más tarde.
+                 Este concepto se le conoce como <b>hoisting</b>.
+                 <br>
+                Las variables son "elevadas" a la parte superior de la función o la declaración. <br>
+                Las variables que no se han inicializado todavia devolveran un valor <b>undefined</b>.
+            </p>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <a href="./index.html">Regresar</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html">Javascript</a>
+    </header>
+
+    <div class="todo">
+        <div class="seccion s14">
+            <h2 class="titulos">Arrays</h2>
+            <p>
+                Los arrays son un conjunto de datos ordenados por posiciones, asociados en una sola variable. <br>
+                Los datos pueden ser de cualquier tipo de dato. <br> <br>
+                <b>Ejemplo:</b> <br>
+                var persona = ['mayo', 22, true];
+            </p> <br>
+            <p>
+                Este array contiene 3 elementos y una longitud de 3.
+            </p> <br>
+            <p>var hobbies = new Array(5);</p> <br>
+            <p>
+                Dentro de los paréntesis o mejor llamado constructor, se establece el número de elementos que puede contener este array. A su vez, se puede indicar los elementos del array.
+            </p> <br>
+            <p>
+                var hobbies = new Array('surfear', 'dibujar'); <br> ó <br> hobbies=['surfear', 'dibujar'];
+            </p> <br>
+            <p>Así fijamos los datos en el array.</p> <br>
+
+            <p><b>Acceder a un elemento array</b></p> <br>
+            <p>Con el ejemplo:</p> <br>
+            <p>
+                var hobbies=['surfear', 'dibujar', 'escribir']; <br>
+                <b>hobbies[1]; </b>//dibujar
+            </p> <br>
+            <p>
+                Hay que tener en cuenta que las posiciones comienzan desde cero (Ej. <b>hobbies[0]; //surfear</b>).
+            </p> <br>
+            <p><b>Añadir elemento al final</b></p>
+            <p>
+                hobbies.<b>push</b>('escalar', 'codear'); <br>
+                //['surfear', 'dibujar', 'escribir', 'escalar', 'codear'];
+            </p> <br> <br>
+            <p><b>Eliminar elementos del final</b></p>
+            <p>
+                hobbies.<b>pop</b>(); <br>
+                //elimina 'codear'
+            </p> <br> <br>
+
+            <p><b>Añadir elemento al inicio</b></p>
+            <p>
+                hobbies.<b>unshift</b>('correr'); <br>
+                //agrega 'correr' al inicio del array.
+            </p> <br> <br>
+
+            <p><b>Conocer el número de elementos</b></p>
+            <p>
+                hobbies.<b>length</b>; <br>
+                //Mostrará 5
+            </p> <br>
+
+            <h2>Metodos del array</h2>
+            <p>
+                El metodo <b>filter()</b> crea un nuevo array con todos los elementos que cumplan con la condición por la función dada.
+            </p>
+            <div class="imagen">
+                <img src="./img/img_009.png" alt="">
+            </div> 
+            <p class="centrar">
+                <b>Sintaxis</b> <br>
+                var newArray=arr.filter(callback(currentValue[index[array]]));
+            </p> <br>
+            <p>
+                <b>callback: </b>Función que comprueba cada elemento del array para ver si cumple la condición. Debe retornar un valor: true o false. <br>
+                <b>currentValue: </b>item actual del array. <br>
+                <b>index: </b>indice del item actual del array. <br>
+            </p> <br> 
+
+            <p>
+                El método <b>map()</b> crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
+            </p>
+            <div class="imagen">
+                <img src="./img/img_010.png" alt="">
+            </div> <br>
+
+            <p>
+                El método <b>reduce()</b> aplica una función a un acumulador y a cada valor de un array (de izquierda a derecha) para reducirlo a un único valor.
+            </p> 
+            <div class="imagen">
+                <img src="./img/img_011.png" alt="">
+            </div> 
+            <p>
+                El método reduce se encarga de recorrer todos los elementos del array e ir acumulando sus valores (o alguna operación diferente) y sumarlo todo, para devolver su resultado final.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <a href="./index.html">Regresar</a>
+    </footer>
+</body>
+</html>
